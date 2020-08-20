@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
-import Menu from './MenuComponent';
+import Symptoms from './MenuComponent';
 import DishDetail from './DishdetailComponent';
+import Statistics from "./StatisticsComponent";
 import { DISHES } from '../shared/dishes';
-import Contact from './ContactComponent';
-
+import Prevention from './PreventionComponent';
+import Cards from "./Cards";
+import Chart from "./Chart";
+import CountryPicker from "./CountryPicker";
+import { fetchData } from "./api";
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
@@ -22,30 +26,30 @@ class Main extends Component {
       dishes: DISHES,
       comments: COMMENTS,
       promotions: PROMOTIONS,
-      leaders: LEADERS
-    };
-  }
+      leaders: LEADERS,
+      
+    };}
+    
 
   render() {
-    const HomePage = () => {
-      return(
-          <Home 
-              dish={this.state.dishes.filter((dish) => dish.featured)[0]}
-              promotion={this.state.promotions.filter((promo) => promo.featured)[0]}
-              leader={this.state.leaders.filter((leader) => leader.featured)[0]}
-          />
-      );
-    }
+    const { data, country } = this.state;
+    
     
     return (
       <div>
         <Header />
         <Switch>
-              <Route path='/home' component={HomePage} />
-              <Route exact path='/menu' component={() => <Menu dishes={this.state.dishes} />} />
-              <Route exact path='/contactus' component={Contact} />
+              <Route path='/home' component={Home} />
+              <Route path='/prevention' component={Prevention} />
+
+              <Route exact path='/symptoms' component={Symptoms} />} />
+              
+              <Route exact path='/statistics' component={Statistics} />
+
               <Redirect to="/home" />
-          </Switch>
+        </Switch>
+        
+
         <Footer />
       </div>
     );
