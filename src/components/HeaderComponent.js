@@ -34,7 +34,7 @@ class Header extends Component {
                                 <NavLink className="nav-link" to='/prevention'><span className="fa fa-info fa-lg"></span>Prevention</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link"  to='/symptoms'><span className="fa fa-list fa-lg"></span>Symptoms</NavLink>
+                                <NavLink className="nav-link"  to='/symptoms'><span className="fa fa-info fa-lg"></span>Symptoms</NavLink>
                             </NavItem>
                             
                             <NavItem>
@@ -49,7 +49,7 @@ class Header extends Component {
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
                                 <h1>COVID_19 TRACKER</h1>
-                                <h2>your one-stop site for all the information you need to be updated on the novel corona virus</h2>
+                                <h2>your one-stop site for all the information you need, to be updated on the Corona Virus pandemic</h2>
                             </div>
                         </div>
                     </div>

@@ -53,14 +53,15 @@ class Symptoms extends Component {
           <div className="symptom" >
             <h3>Most common symptoms:</h3>
 
-                <button 
-                  onClick={() => this.nextProperty()} 
-                  disabled={property.index === data.properties.length-1}
-                >Next</button>
+                
                 <button 
                   onClick={() => this.prevProperty()} 
                   disabled={property.index === 0}
                 >Prev</button>
+                <button 
+                  onClick={() => this.nextProperty()} 
+                  disabled={property.index === data.properties.length-1}
+                >Next</button>
 
                 <div className="page">
                     
@@ -80,7 +81,7 @@ class Symptoms extends Component {
 
           </div>
           <div >
-            <h3>less common symptoms:</h3>
+            <h3>Less common symptoms:</h3>
               <div className="container">
                 <div className="row align-items-start">
                   <div className="col-12 col-sm-4">
