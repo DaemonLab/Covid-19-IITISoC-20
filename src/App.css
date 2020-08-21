@@ -241,16 +241,23 @@ section {
   color:white;
 }
 .global{
-  padding-top: 15px;
-  background-color: #7FB3D5 ;
+  padding: 15px;
+  background-color: #AED6F1 ;
+  max-width: 500px;
+  margin:auto;
 }
 
 .container .cardstatistics{
-  background-color: #7FB3D5 ;
-
+  padding-bottom: 15px;
 }
+
 
 .homeinfo{
   color: white;
 }
+.countrypick{
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
 
+}

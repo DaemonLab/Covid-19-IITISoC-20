@@ -1,3 +1,6 @@
+
+
+
 import React from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import styles from "./cards.module.css";
@@ -5,7 +8,7 @@ import CountUp from "react-countup";
 import cx from "classnames";
 
 const Cards = ({
-  data: {confirmed, recovered, deaths, lastUpdate },
+  data: { confirmed, recovered, deaths, lastUpdate },
   country,
 }) => {
   if (!confirmed) {
@@ -39,7 +42,7 @@ const Cards = ({
     },
   ];
   return (
-    <div >
+    <div className={styles.container}>
       <Grid container spacing={3} justify="center">
         {carddetails.map((detail, index) => (
           <Grid
@@ -47,9 +50,9 @@ const Cards = ({
             component={Card}
             xs={12}
             md={2}
-            className={cx()}
+            className={cx(styles.Card, detail.style)}
             key={index}
-            
+            style={{ margin: "0px 23.675px", padding: "12px" }}
           >
             <CardContent>
               <Typography color="textPrimary" gutterBottom>

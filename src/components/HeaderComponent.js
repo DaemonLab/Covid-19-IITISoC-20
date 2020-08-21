@@ -49,7 +49,7 @@ class Header extends Component {
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
                                 <h1>COVID_19 TRACKER</h1>
-                                <p>your one-stop site for all the information you need to be update on the novel corona virus</p>
+                                <h2>your one-stop site for all the information you need to be updated on the novel corona virus</h2>
                             </div>
                         </div>
                     </div>

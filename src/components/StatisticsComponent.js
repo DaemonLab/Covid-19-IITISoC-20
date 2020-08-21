@@ -27,17 +27,17 @@ class Statistics extends Component {
     const { data, country } = this.state;
     return (
 
-    	<div>
-        <div className="container">
-            <div className="cardstatistics">
+    	<div className="container">
+        <div className= "countrypick">
+          <CountryPicker handleCountryChange={this.handleCountryChange} />
+        </div>
+        <div className="container cardstatistics">
     		      <Cards data={data} country={country} />
-            </div>
         </div>
-        <div className="container">
-        	<CountryPicker handleCountryChange={this.handleCountryChange} />
-        </div>	
-        <Chart data={data} country={country} />
+        <div className="container chartstatistics">
+          <Chart data={data} country={country} />
         </div>
+      </div>
     );
   }
 }
