@@ -1,26 +1,26 @@
 const data = {
     "properties": [
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "0",
         "index": 0,
         "picture": "/assets/images/light_fever.gif",
-        "city": "FEVER",
+        "name": "FEVER",
     
         
     },
     {
-        "_id": "593e9297ec4cca9c56bf61af",
+        "_id": "1",
         "index": 1,
         "picture": "/assets/images/light_cough.gif",
-        "city": "DRY COUGH",
+        "name": "DRY COUGH",
        
         
     },
     {
-        "_id": "593e929773c71925e5d7c11c",
+        "_id": "2",
         "index": 2,
         "picture": "/assets/images/light_tiredness.gif",
-        "city": "TIREDNESS",
+        "name": "TIREDNESS",
         
     },
  

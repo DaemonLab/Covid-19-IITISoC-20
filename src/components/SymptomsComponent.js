@@ -86,7 +86,7 @@ class Symptoms extends Component {
                 <div className="row align-items-start">
                   <div className="col-12 col-sm-4">
                     <Card>
-                      <CardImg src={"/assets/images/headache.png"}/>
+                      <CardImg src={"/assets/images/symptom1.png"}/>
                       <CardBody>
                         <CardTitle className="lesssymptoms">HEADACHE</CardTitle>
                           
@@ -95,7 +95,7 @@ class Symptoms extends Component {
                   </div>
                   <div className="col-12 col-sm-4">
                     <Card>
-                      <CardImg src={'/assets/images/sorethroat.jpg'} />
+                      <CardImg src={'/assets/images/symptom2.jpg'} />
                       <CardBody>
                         <CardTitle className="lesssymptoms">SORE THROAT</CardTitle>
                           
@@ -104,10 +104,9 @@ class Symptoms extends Component {
                   </div>
                   <div className="col-12 col-sm-4">
                     <Card>
-                      <CardImg src={'/assets/images/unnameds.png'} />
+                      <CardImg src={'/assets/images/symptom3.png'} />
                       <CardBody>
-                        <CardTitle className="lesssymptoms">ACHES AND PAINS</CardTitle>
-                          
+                        <CardTitle className="lesssymptoms">ACHES</CardTitle>
                       </CardBody>
                     </Card>
                   </div>

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
-import Symptoms from './MenuComponent';
-import DishDetail from './DishdetailComponent';
+import Symptoms from './SymptomsComponent';
+
 import Statistics from "./StatisticsComponent";
-import { DISHES } from '../shared/dishes';
 import Prevention from './PreventionComponent';
 import Cards from "./Cards";
 import Chart from "./Chart";
@@ -13,9 +12,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { COMMENTS } from '../shared/comments';
-import { PROMOTIONS } from '../shared/promotions';
-import { LEADERS } from '../shared/leaders';
+
 
 class Main extends Component {
 
@@ -23,10 +20,7 @@ class Main extends Component {
     super(props);
 
     this.state = {
-      dishes: DISHES,
-      comments: COMMENTS,
-      promotions: PROMOTIONS,
-      leaders: LEADERS,
+      
       
     };}
     

@@ -9,27 +9,27 @@ const Slideshow = () => {
       <div className="slide-container">
         <Slide>
           <div className="each-slide">
-            <img className="img-fluid" src={'/assets/images/coronas.jpg'}/>
+            <img className="img-fluid" src={'/assets/images/1.jpg'}/>
               
             </div>
           
           <div className="each-slide">
-            <img className="img-fluid" src={'/assets/images/feverchecks.jpg'}/>
+            <img className="img-fluid" src={'/assets/images/2.jpg'}/>
               
             
           </div>
           <div className="each-slide">
-            <img className="img-fluid" src={'/assets/images/testingss.jpg'}/>
+            <img className="img-fluid" src={'/assets/images/3.jpg'}/>
               
           
           </div>
           <div className="each-slide">
-            <img className="img-fluid" src={'/assets/images/socialdistancingss.jpg'}/>
+            <img className="img-fluid" src={'/assets/images/4.jpeg'}/>
               
           
           </div>
           <div className="each-slide">
-            <img  className="img-fluid" src={'/assets/images/crowdss.jpg'}/>
+            <img  className="img-fluid" src={'/assets/images/5.jpg'}/>
               
           
           </div>
