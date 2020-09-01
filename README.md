@@ -12,5 +12,5 @@ React,Javascript,CSS,HTML,Bootstrap
 
 (https://towardsdatascience.com/lets-create-a-covid-19-tracker-using-react-js-5a3a0265a633)
 
-### This project was made as part of the IITISOC 2020.
+### This project was made as part of the IITISOC event 2020.
 
