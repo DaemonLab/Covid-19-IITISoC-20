@@ -14,3 +14,4 @@ React,Javascript,CSS,HTML,Bootstrap
 
 ### This project was made as part of the IITISOC event 2020.
 
+### The completed project can be found at (https://covid-19-tracker-site.herokuapp.com/home)
