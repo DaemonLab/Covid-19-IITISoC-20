@@ -8,7 +8,7 @@ During the Covid-19 pandemic, all the nations are taking stringent measures to c
 
 React,Javascript,CSS,HTML,Bootstrap
 
-## reference links
+# Reference links
 
 (https://towardsdatascience.com/lets-create-a-covid-19-tracker-using-react-js-5a3a0265a633)
 
